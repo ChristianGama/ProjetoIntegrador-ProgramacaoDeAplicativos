@@ -147,6 +147,11 @@ public class FormCadastrarPessoa extends FormTemplate {
         jLabel12.setText("Endereço");
 
         jCBTipoPessoa.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Professor", "Aluno", "Funcionario", " " }));
+        jCBTipoPessoa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCBTipoPessoaActionPerformed(evt);
+            }
+        });
 
         jCBCidade.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Ponta Grossa" }));
         jCBCidade.addActionListener(new java.awt.event.ActionListener() {
@@ -335,6 +340,10 @@ public class FormCadastrarPessoa extends FormTemplate {
     private void jCBCidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCBCidadeActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCBCidadeActionPerformed
+
+    private void jCBTipoPessoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCBTipoPessoaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCBTipoPessoaActionPerformed
 
     /**
      * @param args the command line arguments
