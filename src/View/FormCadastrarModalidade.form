@@ -20,228 +20,239 @@
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
   </AuxValues>
 
-  <Layout>
-    <DimensionLayout dim="0">
-      <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
-                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jTFQuantidadeAlunos" min="-2" pref="50" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jCBTurno" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jCBTurma" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jCBNomeProfessor" min="-2" pref="229" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
-                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace pref="29" max="32767" attributes="0"/>
-          </Group>
-      </Group>
-    </DimensionLayout>
-    <DimensionLayout dim="1">
-      <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCBTurno" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCBTurma" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTFQuantidadeAlunos" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jCBNomeProfessor" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-          </Group>
-      </Group>
-    </DimensionLayout>
-  </Layout>
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel10">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Turma"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JComboBox" name="jCBTurma">
-      <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="A"/>
-            <StringItem index="1" value="B"/>
-            <StringItem index="2" value="C"/>
-            <StringItem index="3" value=" "/>
-          </StringArray>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JComboBox" name="jCBTurno">
-      <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="5">
-            <StringItem index="0" value="Manh&#xe3;"/>
-            <StringItem index="1" value="Tarde "/>
-            <StringItem index="2" value="Noite"/>
-            <StringItem index="3" value="Integral"/>
-            <StringItem index="4" value=" "/>
-          </StringArray>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel11">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Turno"/>
-      </Properties>
-    </Component>
-    <Container class="javax.swing.JPanel" name="jPanel1">
-      <Properties>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="Dias da Semana">
-              <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
-            </TitledBorder>
-          </Border>
-        </Property>
-        <Property name="name" type="java.lang.String" value="" noResource="true"/>
-      </Properties>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="jCKQuarta" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jCKSabado" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jTFQuantidadeAlunos" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCBTurno" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCBTurma" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jCBNomeProfessor" min="-2" pref="229" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jCKSegunda" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCKTerca" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jCKSexta" min="-2" max="-2" attributes="0"/>
-                              <Component id="jCKQiuinta" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="0" pref="4" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jCKSegunda" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jCKQiuinta" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jCKTerca" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jCKSexta" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jCKQuarta" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jCKSabado" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
                   <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCBTurno" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCBTurma" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTFQuantidadeAlunos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jCBNomeProfessor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JCheckBox" name="jCKSegunda">
+        <Component class="javax.swing.JLabel" name="jLabel12">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Segunda"/>
+            <Property name="text" type="java.lang.String" value="Quantidade de Alunos"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="jCKTerca">
+        <Component class="javax.swing.JTextField" name="jTFQuantidadeAlunos">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jCBTurno">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ter&#xe7;a"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Manh&#xe3;"/>
+                <StringItem index="1" value="Tarde "/>
+                <StringItem index="2" value="Noite"/>
+                <StringItem index="3" value="Integral"/>
+                <StringItem index="4" value=" "/>
+              </StringArray>
+            </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="jCKQuarta">
+        <Component class="javax.swing.JComboBox" name="jCBNomeProfessor">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Quarta"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Professor1"/>
+                <StringItem index="1" value="Professor2"/>
+                <StringItem index="2" value="Professor3"/>
+                <StringItem index="3" value=" "/>
+              </StringArray>
+            </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="jCKQiuinta">
+        <Component class="javax.swing.JComboBox" name="jCBTurma">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Quinta"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="A"/>
+                <StringItem index="1" value="B"/>
+                <StringItem index="2" value="C"/>
+                <StringItem index="3" value=" "/>
+              </StringArray>
+            </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="jCKSexta">
+        <Container class="javax.swing.JPanel" name="jPanel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Sexta"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Dias da Semana">
+                  <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jCKQuarta" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jCKSabado" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCKSegunda" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCKTerca" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCKSexta" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCKQiuinta" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="4" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jCKSegunda" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCKQiuinta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jCKTerca" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCKSexta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jCKQuarta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCKSabado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="jCKSegunda">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Segunda"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCKTerca">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ter&#xe7;a"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCKQuarta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quarta"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCKQiuinta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quinta"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCKSexta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sexta"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jCKSabado">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sabado"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Turma"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="jCKSabado">
+        <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Sabado"/>
+            <Property name="text" type="java.lang.String" value="Turno"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Professor"/>
           </Properties>
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JTextField" name="jTFQuantidadeAlunos">
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Quantidade de Alunos"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel13">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Professor"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JComboBox" name="jCBNomeProfessor">
-      <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="Professor1"/>
-            <StringItem index="1" value="Professor2"/>
-            <StringItem index="2" value="Professor3"/>
-            <StringItem index="3" value=" "/>
-          </StringArray>
-        </Property>
-      </Properties>
-    </Component>
   </SubComponents>
 </Form>
