@@ -67,7 +67,6 @@ public class FormCadastrarPessoa extends FormTemplate {
         jTFTCEP = new javax.swing.JFormattedTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(670, 310));
 
         jPanel3.setPreferredSize(new java.awt.Dimension(670, 310));
 
