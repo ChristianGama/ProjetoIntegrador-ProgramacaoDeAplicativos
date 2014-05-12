@@ -68,7 +68,7 @@ public class FormCadastrarPessoa extends FormTemplate {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setPreferredSize(new java.awt.Dimension(670, 310));
+        jPanel3.setPreferredSize(new java.awt.Dimension(600, 310));
 
         jLabel8.setText("Telefone");
 
